@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Trench Murakami Skin</title>
+  <link rel="stylesheet" href="XSX.css" />
+  <script>
+    window.onload = () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = "https://gamepadviewer.com/?p=1&css=" + encodeURIComponent(location.href.replace("index.html", "XSX.css"));
+      iframe.style.width = "100%";
+      iframe.style.height = "100vh";
+      iframe.style.border = "none";
+      document.body.appendChild(iframe);
+    };
+  </script>
+</head>
+<body></body>
+</html>
